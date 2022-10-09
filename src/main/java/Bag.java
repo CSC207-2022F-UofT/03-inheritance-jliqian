@@ -125,7 +125,6 @@ public abstract class Bag {
      */
     public void increaseCapacity(int n) {
         capacity += n;
-
     }
 
     /**
