@@ -31,11 +31,11 @@
  *       See the tests in test/CrossBodyBagTest.java for examples.
  */
 
-public class CrossBodyBag extends Bag {
+public class CrossbodyBag extends Bag {
 
     private int numberOfStraps;
 
-    public CrossBodyBag(String color, int capacity, int numberOfStraps) {
+    public CrossbodyBag(String color, int capacity, int numberOfStraps) {
         super(color, capacity);
         this.numberOfStraps = numberOfStraps;
     }

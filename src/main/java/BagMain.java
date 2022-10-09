@@ -33,8 +33,8 @@ class BagMain {
     public static int countCrossbodyStraps(Bag[] bags) {
         int count = 0;
         for (Bag b : bags) {
-            if (b instanceof CrossBodyBag) {
-                CrossBodyBag c = (CrossBodyBag) b;
+            if (b instanceof CrossbodyBag) {
+                CrossbodyBag c = (CrossbodyBag) b;
                 count += c.getNumberOfStraps();
             }
         }
